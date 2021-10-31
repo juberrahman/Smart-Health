@@ -1,4 +1,4 @@
-Instructor: Juber Rahman, Ph.D.
+Project Instructions
 
 1. Select a sleep apnea database (e.g. apnea-ecg database from Physionet) and read the dataset descriptions to identify the healthy and apnea subjects.</br>
 2. Download all the records, and process the records to extract HRV features using a software (e.g. HRVanalysis) or in python.</br>
