@@ -1,0 +1,69 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.RandomForest -P 100 -I 100 -num-slots 1 -K 0 -M 1.0 -V 0.001 -S 1
+Relation:     ApneaDataSet
+Instances:    70
+Attributes:   23
+              avnn
+              hr
+              SDNN
+              pNN50
+              RMSSD
+              HRdiff
+              VLF
+              LF
+              HF
+              LHFratio
+              record
+              length-min
+              non-apn-min
+              apn-min
+              hours-apn
+              AI
+              HI
+              AHI
+              Age
+              Sex
+              height
+              weight
+              Target
+Test mode:    split 80.0% train, remainder test
+
+=== Classifier model (full training set) ===
+
+RandomForest
+
+Bagging with 100 iterations and base learner
+
+weka.classifiers.trees.RandomTree -K 0 -M 1.0 -V 0.001 -S 1 -do-not-check-capabilities
+
+Time taken to build model: 0.02 seconds
+
+=== Evaluation on test split ===
+
+Time taken to test model on test split: 0.02 seconds
+
+=== Summary ===
+
+Correctly Classified Instances          14              100      %
+Incorrectly Classified Instances         0                0      %
+Kappa statistic                          1     
+Mean absolute error                      0.1765
+Root mean squared error                  0.2018
+Relative absolute error                 37.3141 %
+Root relative squared error             39.6653 %
+Total Number of Instances               14     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     A
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     H
+Weighted Avg.    1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     
+
+=== Confusion Matrix ===
+
+ a b   <-- classified as
+ 8 0 | a = A
+ 0 6 | b = H
+

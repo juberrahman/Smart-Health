@@ -1,0 +1,269 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.bayes.NaiveBayes 
+Relation:     ApneaDataSet
+Instances:    70
+Attributes:   23
+              avnn
+              hr
+              SDNN
+              pNN50
+              RMSSD
+              HRdiff
+              VLF
+              LF
+              HF
+              LHFratio
+              record
+              length-min
+              non-apn-min
+              apn-min
+              hours-apn
+              AI
+              HI
+              AHI
+              Age
+              Sex
+              height
+              weight
+              Target
+Test mode:    split 80.0% train, remainder test
+
+=== Classifier model (full training set) ===
+
+Naive Bayes Classifier
+
+                       Class
+Attribute                  A             H
+                      (0.67)        (0.33)
+===========================================
+avnn
+  mean              1191.7704      976.2884
+  std. dev.         2410.8833      286.2706
+  weight sum               47            23
+  precision          246.7542      246.7542
+
+hr
+  mean                76.3861      115.0476
+  std. dev.           20.3184       44.1685
+  weight sum               47            23
+  precision            1.9586        1.9586
+
+SDNN
+  mean              2321.3655     2884.6581
+  std. dev.        14695.8745     3544.8721
+  weight sum               47            23
+  precision         1474.3808     1474.3808
+
+pNN50
+  mean                27.7936       68.1857
+  std. dev.           22.1629       16.8833
+  weight sum               47            23
+  precision            1.1854        1.1854
+
+RMSSD
+  mean              1893.0729      2172.693
+  std. dev.         12141.011     2896.7086
+  weight sum               47            23
+  precision         1218.8278     1218.8278
+
+HRdiff
+  mean                545.819      784.3056
+  std. dev.         1481.6777     1176.0342
+  weight sum               47            23
+  precision           90.6484       90.6484
+
+VLF
+  mean          10331952.5149 18510132.9154
+  std. dev.     66262819.2618 24963627.8531
+  weight sum               47            23
+  precision      6652079.0165  6652079.0165
+
+LF
+  mean           1520963.7314  1154420.9191
+  std. dev.     10166175.1161  2198624.5494
+  weight sum               47            23
+  precision      1021218.5054  1021218.5054
+
+HF
+  mean            127698.0855   155056.2135
+  std. dev.       866090.5542   379544.9139
+  weight sum               47            23
+  precision        86982.7539    86982.7539
+
+LHFratio
+  mean                 5.0116        7.5555
+  std. dev.            6.4621        7.2739
+  weight sum               47            23
+  precision            0.4609        0.4609
+
+record
+  a01                     2.0           1.0
+  a02                     2.0           1.0
+  a03                     2.0           1.0
+  a04                     2.0           1.0
+  a05                     2.0           1.0
+  a06                     2.0           1.0
+  a07                     2.0           1.0
+  a08                     2.0           1.0
+  a09                     2.0           1.0
+  a10                     2.0           1.0
+  a11                     2.0           1.0
+  a12                     2.0           1.0
+  a13                     2.0           1.0
+  a14                     2.0           1.0
+  a15                     2.0           1.0
+  a16                     2.0           1.0
+  a17                     2.0           1.0
+  a18                     2.0           1.0
+  a19                     2.0           1.0
+  a20                     2.0           1.0
+  b01                     1.0           2.0
+  b02                     2.0           1.0
+  b03                     2.0           1.0
+  b04                     1.0           2.0
+  b05                     2.0           1.0
+  c01                     1.0           2.0
+  c02                     1.0           2.0
+  c03                     1.0           2.0
+  c04                     1.0           2.0
+  c05                     1.0           2.0
+  c06                     1.0           2.0
+  c07                     1.0           2.0
+  c08                     1.0           2.0
+  c09                     1.0           2.0
+  c10                     1.0           2.0
+  x01                     2.0           1.0
+  x02                     2.0           1.0
+  x03                     1.0           2.0
+  x04                     1.0           2.0
+  x05                     2.0           1.0
+  x06                     1.0           2.0
+  x07                     2.0           1.0
+  x08                     2.0           1.0
+  x09                     2.0           1.0
+  x10                     2.0           1.0
+  x11                     2.0           1.0
+  x12                     2.0           1.0
+  x13                     2.0           1.0
+  x14                     2.0           1.0
+  x15                     2.0           1.0
+  x16                     2.0           1.0
+  x17                     1.0           2.0
+  x18                     1.0           2.0
+  x19                     2.0           1.0
+  x20                     2.0           1.0
+  x21                     2.0           1.0
+  x22                     1.0           2.0
+  x23                     2.0           1.0
+  x24                     1.0           2.0
+  x25                     2.0           1.0
+  x26                     2.0           1.0
+  x27                     2.0           1.0
+  x28                     2.0           1.0
+  x29                     1.0           2.0
+  x30                     2.0           1.0
+  x31                     2.0           1.0
+  x32                     2.0           1.0
+  x33                     1.0           2.0
+  x34                     1.0           2.0
+  x35                     1.0           2.0
+  [total]               117.0          93.0
+
+length-min
+  mean               503.9833      467.5945
+  std. dev.           25.8241       27.3468
+  weight sum               47            23
+  precision            3.8478        3.8478
+
+non-apn-min
+  mean                226.695      464.3313
+  std. dev.           131.146       27.1631
+  weight sum               47            23
+  precision            8.3175        8.3175
+
+apn-min
+  mean               276.3252        1.7523
+  std. dev.          137.3285        4.8386
+  weight sum               47            23
+  precision           10.0755       10.0755
+
+hours-apn
+  mean                 7.4894        0.1739
+  std. dev.            2.1524        0.4802
+  weight sum               47            23
+  precision                 1             1
+
+AI
+  mean                32.5757             0
+  std. dev.           22.2203        0.4019
+  weight sum               47            23
+  precision            2.4111        2.4111
+
+HI
+  mean                 9.1927             0
+  std. dev.           10.2409        0.3172
+  weight sum               47            23
+  precision            1.9033        1.9033
+
+AHI
+  mean                41.6746             0
+  std. dev.           23.1097        0.3996
+  weight sum               47            23
+  precision            2.3974        2.3974
+
+Age
+  mean                50.5184       33.9368
+  std. dev.            7.9424        6.4778
+  weight sum               47            23
+  precision            1.6364        1.6364
+
+Sex
+  M                      46.0          13.0
+  F                       3.0          12.0
+  [total]                49.0          25.0
+
+height
+  mean               176.1915      175.0559
+  std. dev.            3.8044        8.0713
+  weight sum               47            23
+  precision            1.8571        1.8571
+
+weight
+  mean                97.5152       65.1925
+  std. dev.           16.1867        8.1112
+  weight sum               47            23
+  precision            2.9286        2.9286
+
+
+
+Time taken to build model: 0 seconds
+
+=== Evaluation on test split ===
+
+Time taken to test model on test split: 0 seconds
+
+=== Summary ===
+
+Correctly Classified Instances          14              100      %
+Incorrectly Classified Instances         0                0      %
+Kappa statistic                          1     
+Mean absolute error                      0     
+Root mean squared error                  0     
+Relative absolute error                  0.0001 %
+Root relative squared error              0.0005 %
+Total Number of Instances               14     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     A
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     H
+Weighted Avg.    1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     
+
+=== Confusion Matrix ===
+
+ a b   <-- classified as
+ 8 0 | a = A
+ 0 6 | b = H
+
