@@ -1,0 +1,119 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.Logistic -R 1.0E-8 -M -1 -num-decimal-places 4
+Relation:     ApneaDataSet
+Instances:    70
+Attributes:   23
+              avnn
+              hr
+              SDNN
+              pNN50
+              RMSSD
+              HRdiff
+              VLF
+              LF
+              HF
+              LHFratio
+              record
+              length-min
+              non-apn-min
+              apn-min
+              hours-apn
+              AI
+              HI
+              AHI
+              Age
+              Sex
+              height
+              weight
+              Target
+Test mode:    split 80.0% train, remainder test
+
+=== Classifier model (full training set) ===
+
+Logistic Regression with ridge parameter of 1.0E-8
+Coefficients...
+                  Class
+Variable              A
+=======================
+avnn             0.0003
+hr              -0.1349
+SDNN                  0
+pNN50           -0.1406
+RMSSD                 0
+HRdiff           0.0032
+VLF                  -0
+LF                    0
+HF                   -0
+LHFratio         0.0701
+length-min       0.2036
+non-apn-min     -0.0232
+apn-min           0.026
+hours-apn        1.4506
+AI               0.2195
+HI               0.4437
+AHI              0.2201
+Age              0.3065
+Sex=F          -14.0201
+height           0.5121
+weight           0.5093
+Intercept     -231.2173
+
+
+Odds Ratios...
+                  Class
+Variable              A
+=======================
+avnn             1.0003
+hr               0.8738
+SDNN                  1
+pNN50            0.8688
+RMSSD                 1
+HRdiff           1.0032
+VLF                   1
+LF                    1
+HF                    1
+LHFratio         1.0726
+length-min       1.2258
+non-apn-min       0.977
+apn-min          1.0264
+hours-apn        4.2657
+AI               1.2455
+HI               1.5585
+AHI              1.2462
+Age              1.3586
+Sex=F                 0
+height           1.6688
+weight           1.6641
+
+
+Time taken to build model: 0.01 seconds
+
+=== Evaluation on test split ===
+
+Time taken to test model on test split: 0 seconds
+
+=== Summary ===
+
+Correctly Classified Instances          14              100      %
+Incorrectly Classified Instances         0                0      %
+Kappa statistic                          1     
+Mean absolute error                      0     
+Root mean squared error                  0     
+Relative absolute error                  0.002  %
+Root relative squared error              0.0067 %
+Total Number of Instances               14     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     A
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     H
+Weighted Avg.    1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     
+
+=== Confusion Matrix ===
+
+ a b   <-- classified as
+ 8 0 | a = A
+ 0 6 | b = H
+
