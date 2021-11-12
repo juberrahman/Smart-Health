@@ -6,4 +6,4 @@
 * Develop an articial neural network for multi-category heart disease classification from single channel ECG </br>
 * Develop a 1-D convolutional neural network model for multi-category heart disease classification from single channel ECG </br>
 * Compare the performances of the developed deep learning models </br> 
-* Upload/Pull request your notebook on Smart Health course Github Project-2 branch </br>
+* Upload/Pull request your notebook on Smart Health course Github Project-3 branch </br>
