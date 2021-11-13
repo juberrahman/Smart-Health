@@ -10,7 +10,7 @@
 * Develop a 1-D convolutional neural network for multi-category heart disease classification from single channel ECG </br>
 * Compare the performances of the developed deep learning models </br> 
 * Upload/Pull request your notebook on Smart Health course Github Project-3 branch </br>
-<b>option 2 (PTBDB) </b>:</br>
+<b>Option 2 (PTBDB) </b>:</br>
 * Develop an articial neural network for myocardial infarction classification from healthy subjects using single channel ECG </br>
 * Develop a 1-D convolutional neural network for multi-category heart disease classification from single channel ECG </br>
 * Compare the performances of the developed deep learning models </br> 
