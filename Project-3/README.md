@@ -15,3 +15,9 @@
 * Develop a 1-D convolutional neural network for multi-category heart disease classification from single channel ECG </br>
 * Compare the performances of the developed deep learning models </br> 
 * Upload/Pull request your notebook on Smart Health course Github Project-3 branch </br>
+<b>Option 3 (data_arrhythmia.csv) </b>:</br>
+* read the dataset details from here https://archive.ics.uci.edu/ml/datasets/arrhythmia
+* Develop an articial neural network for arrhythmia classification from healthy subjects using single channel ECG </br>
+* Develop a 1-D convolutional neural network for arrythmiya classification from single channel ECG </br>
+* Compare the performances of the developed deep learning models </br> 
+* Upload/Pull request your notebook on Smart Health course Github Project-3 branch </br>
